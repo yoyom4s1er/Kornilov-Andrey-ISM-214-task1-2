@@ -1,45 +1,45 @@
 #pragma once
 
 /**
- * \brief метод сложения двух чисел
- * \param a первое число
- * \param b второе число
- * \return ответ
+ * \brief РјРµС‚РѕРґ СЃР»РѕР¶РµРЅРёСЏ РґРІСѓС… С‡РёСЃРµР»
+ * \param a РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ
+ * \param b РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ
+ * \return РѕС‚РІРµС‚
  */
 
 double sum_helper(const double a, const double b);
 
 /**
- * \brief метод вычитания двух чисел
- * \param a первое число
- * \param b второе число
- * \return ответ
+ * \brief РјРµС‚РѕРґ РІС‹С‡РёС‚Р°РЅРёСЏ РґРІСѓС… С‡РёСЃРµР»
+ * \param a РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ
+ * \param b РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ
+ * \return РѕС‚РІРµС‚
  */
 
 double sub_helper(const double a, const double b);
 
 /**
- * \brief метод умножения двух чисел
- * \param a первое число
- * \param b второе число
- * \return ответ
+ * \brief РјРµС‚РѕРґ СѓРјРЅРѕР¶РµРЅРёСЏ РґРІСѓС… С‡РёСЃРµР»
+ * \param a РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ
+ * \param b РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ
+ * \return РѕС‚РІРµС‚
  */
 
 double multiply_helper(const double a, const double b);
 
 /**
- * \brief метод деления двух чисел
- * \param a первое число
- * \param b второе число
- * \return ответ
+ * \brief РјРµС‚РѕРґ РґРµР»РµРЅРёСЏ РґРІСѓС… С‡РёСЃРµР»
+ * \param a РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ
+ * \param b РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ
+ * \return РѕС‚РІРµС‚
  */
 
 double div_helper(const double a, const double b);
 
 /**
- * \brief Метод сравнения двух чисел
- * \param a первое число
- * \param b второе число
- * \return true, если равны, false, иначе
+ * \brief РњРµС‚РѕРґ СЃСЂР°РІРЅРµРЅРёСЏ РґРІСѓС… С‡РёСЃРµР»
+ * \param a РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ
+ * \param b РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ
+ * \return true, РµСЃР»Рё СЂР°РІРЅС‹, false, РёРЅР°С‡Рµ
  */
 bool are_equal(const double a, const double b);
