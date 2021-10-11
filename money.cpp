@@ -11,108 +11,108 @@ money::money(const double n_001, const double n_005, const double n_01, const do
 money::money(const money& other)
     : money(other.n_001, other.n_005, other.n_01, other.n_05, other.n_1, other.n_2, other.n_5, other.n_10, other.n_50, other.n_100, other.n_500, other.n_1000, other.n_5000) {}
 
-int money::get_n_001() const {
+double money::get_n_001() const {
     return this->n_001;
 }
 
-int money::get_n_005() const {
+double money::get_n_005() const {
     return this->n_005;
 }
 
-int money::get_n_01() const {
+double money::get_n_01() const {
     return this->n_01;
 }
 
-int money::get_n_05() const {
+double money::get_n_05() const {
     return this->n_05;
 }
 
-int money::get_n_1() const {
+double money::get_n_1() const {
     return this->n_1;
 }
 
-int money::get_n_2() const {
+double money::get_n_2() const {
     return this->n_2;
 }
 
-int money::get_n_5() const {
+double money::get_n_5() const {
     return this->n_5;
 }
 
-int money::get_n_10() const {
+double money::get_n_10() const {
     return this->n_10;
 }
 
-int money::get_n_50() const {
+double money::get_n_50() const {
     return this->n_50;
 }
 
-int money::get_n_100() const {
+double money::get_n_100() const {
     return this->n_100;
 }
 
-int money::get_n_500() const {
+double money::get_n_500() const {
     return this->n_500;
 }
 
-int money::get_n_1000() const {
+double money::get_n_1000() const {
     return this->n_1000;
 }
 
-int money::get_n_5000() const {
+double money::get_n_5000() const {
     return this->n_5000;
 }
 
-int money::set_n_001(int set) {
-    return this->n_001 = set;
+void money::set_n_001(int set) {
+    this->n_001 = set;
 }
 
-int money::set_n_005(int set) {
-    return this->n_005 = set;
+void money::set_n_005(int set) {
+    this->n_005 = set;
 }
 
-int money::set_n_01(int set) {
-    return this->n_01 = set;
+void money::set_n_01(int set) {
+    this->n_01 = set;
 }
 
-int money::set_n_05(int set) {
-    return this->n_05 = set;
+void money::set_n_05(int set) {
+    this->n_05 = set;
 }
 
-int money::set_n_1(int set) {
-    return this->n_1 = set;
+void money::set_n_1(int set) {
+    this->n_1 = set;
 }
 
-int money::set_n_2(int set) {
-    return this->n_2 = set;
+void money::set_n_2(int set) {
+    this->n_2 = set;
 }
 
-int money::set_n_5(int set) {
-    return this->n_5 = set;
+void money::set_n_5(int set) {
+    this->n_5 = set;
 }
 
-int money::set_n_10(int set) {
-    return this->n_10 = set;
+void money::set_n_10(int set) {
+    this->n_10 = set;
 }
 
-int money::set_n_50(int set) {
-    return this->n_50 = set;
+void money::set_n_50(int set) {
+    this->n_50 = set;
 }
 
-int money::set_n_100(int set) {
-    return this->n_100 = set;
+void money::set_n_100(int set) {
+    this->n_100 = set;
 }
 
-int money::set_n_500(int set) {
-    return this->n_500 = set;
+void money::set_n_500(int set) {
+    this->n_500 = set;
 }
 
-int money::set_n_1000(int set) {
-    return this->n_1000 = set;
+void money::set_n_1000(int set) {
+    this->n_1000 = set;
 }
 
-int money::set_n_5000(int set){
-    return this->n_5000 = set;
+void money::set_n_5000(int set){
+    this->n_5000 = set;
 }
 
 void money::sum(const money& other){
