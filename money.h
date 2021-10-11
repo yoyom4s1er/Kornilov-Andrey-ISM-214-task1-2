@@ -126,182 +126,182 @@ public:
      * @return n_001
      */
 
-    int get_n_001() const;
+    double get_n_001() const;
 
     /**
      * @brief Возвращает значение по номиналу 0.05
      * @return n_005
      */
 
-    int get_n_005() const;
+    double get_n_005() const;
 
     /**
      * @brief Возвращает значение по номиналу 0.1
      * @return n_01
      */
 
-    int get_n_01() const;
+    double get_n_01() const;
 
     /**
      * @brief Возвращает значение по номиналу 0.5
      * @return n_05
      */
 
-    int get_n_05() const;
+    double get_n_05() const;
 
     /**
      * @brief Возвращает значение по номиналу 1
      * @return n_1
      */
 
-    int get_n_1() const;
+    double get_n_1() const;
 
     /**
      * @brief Возвращает значение по номиналу 5
      * @return n_2
      */
 
-    int get_n_2() const;
+    double get_n_2() const;
 
     /**
      * @brief Возвращает значение по номиналу 5
      * @return n_5
      */
 
-    int get_n_5() const;
+    double get_n_5() const;
 
     /**
      * @brief Возвращает значение по номиналу 10
      * @return n_10
      */
 
-    int get_n_10() const;
+    double get_n_10() const;
 
     /**
      * @brief Возвращает значение по номиналу 50
      * @return n_50
      */
 
-    int get_n_50() const;
+    double get_n_50() const;
 
     /**
      * @brief Возвращает значение по номиналу 100
      * @return n_100
      */
 
-    int get_n_100() const;
+    double get_n_100() const;
 
     /**
      * @brief Возвращает значение по номиналу 500
      * @return n_500
      */
 
-    int get_n_500() const;
+    double get_n_500() const;
 
     /**
      * @brief Возвращает значение по номиналу 1000
      * @return n_1000
      */
 
-    int get_n_1000() const;
+    double get_n_1000() const;
 
     /**
      * @brief Возвращает значение по номиналу 5000
      * @return n_5000
      */
 
-    int get_n_5000() const;
+    double get_n_5000() const;
 
     /**
      * @brief Возвращает значение по номиналу 0.01
      * @return n_001
      */
 
-    int set_n_001(int set);
+    void set_n_001(int set);
 
     /**
      * @brief Возвращает значение по номиналу 0.05
      * @return n_005
      */
 
-    int set_n_005(int set);
+    void set_n_005(int set);
 
     /**
      * @brief Возвращает значение по номиналу 0.1
      * @return n_01
      */
 
-    int set_n_01(int set);
+    void set_n_01(int set);
 
     /**
      * @brief Возвращает значение по номиналу 0.5
      * @return n_05
      */
 
-    int set_n_05(int set);
+    void set_n_05(int set);
 
     /**
      * @brief Возвращает значение по номиналу 1
      * @return n_1
      */
 
-    int set_n_1(int set);
+    void set_n_1(int set);
 
     /**
      * @brief Возвращает значение по номиналу 5
      * @return n_2
      */
 
-    int set_n_2(int set);
+    void set_n_2(int set);
 
     /**
      * @brief Возвращает значение по номиналу 5
      * @return n_5
      */
 
-    int set_n_5(int set);
+    void set_n_5(int set);
 
     /**
      * @brief Возвращает значение по номиналу 10
      * @return n_10
      */
 
-    int set_n_10(int set);
+    void set_n_10(int set);
 
     /**
      * @brief Возвращает значение по номиналу 50
      * @return n_50
      */
 
-    int set_n_50(int set);
+    void set_n_50(int set);
 
     /**
      * @brief Возвращает значение по номиналу 100
      * @return n_100
      */
 
-    int set_n_100(int set);
+    void set_n_100(int set);
 
     /**
      * @brief Возвращает значение по номиналу 500
      * @return n_500
      */
 
-    int set_n_500(int set);
+    void set_n_500(int set);
 
     /**
      * @brief Возвращает значение по номиналу 1000
      * @return n_1000
      */
 
-    int set_n_1000(int set);
+    void set_n_1000(int set);
 
     /**
      * @brief Возвращает значение по номиналу 5000
      * @return n_5000
      */
 
-    int set_n_5000(int set);
+    void set_n_5000(int set);
 
 
 
