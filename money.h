@@ -213,95 +213,95 @@ public:
     double get_n_5000() const;
 
     /**
-     * @brief Возвращает значение по номиналу 0.01
-     * @return n_001
+     * @brief Устанавливает новое значение по номиналу 0.01
+     * @param n_001
      */
 
-    void set_n_001(int set);
+    void set_n_001(double n_001);
 
     /**
      * @brief Возвращает значение по номиналу 0.05
-     * @return n_005
+     * @param n_005
      */
 
-    void set_n_005(int set);
+    void set_n_005(double n_005);
 
     /**
-     * @brief Возвращает значение по номиналу 0.1
-     * @return n_01
+     * @brief Устанавливает новое значение по номиналу 0.1
+     * @param n_01
      */
 
-    void set_n_01(int set);
+    void set_n_01(double n_01);
 
     /**
-     * @brief Возвращает значение по номиналу 0.5
-     * @return n_05
+     * @brief Устанавливает новое значение по номиналу 0.5
+     * @param n_05
      */
 
-    void set_n_05(int set);
+    void set_n_05(double n_05);
 
     /**
-     * @brief Возвращает значение по номиналу 1
-     * @return n_1
+     * @brief Устанавливает новое значение по номиналу 1
+     * @param n_1
      */
 
-    void set_n_1(int set);
+    void set_n_1(double n_1);
 
     /**
-     * @brief Возвращает значение по номиналу 5
-     * @return n_2
+     * @brief Устанавливает новое значение по номиналу 5
+     * @param n_2
      */
 
-    void set_n_2(int set);
+    void set_n_2(double n_2);
 
     /**
-     * @brief Возвращает значение по номиналу 5
-     * @return n_5
+     * @brief Устанавливает новое значение по номиналу 5
+     * @param n_5
      */
 
-    void set_n_5(int set);
+    void set_n_5(double n_5);
 
     /**
-     * @brief Возвращает значение по номиналу 10
-     * @return n_10
+     * @brief Устанавливает новое значение по номиналу 10
+     * @param n_10
      */
 
-    void set_n_10(int set);
+    void set_n_10(double n_10);
 
     /**
-     * @brief Возвращает значение по номиналу 50
-     * @return n_50
+     * @brief Устанавливает новое значение по номиналу 50
+     * @param n_50
      */
 
-    void set_n_50(int set);
+    void set_n_50(double n_50);
 
     /**
-     * @brief Возвращает значение по номиналу 100
-     * @return n_100
+     * @brief Устанавливает новое значение по номиналу 100
+     * @param n_100
      */
 
-    void set_n_100(int set);
+    void set_n_100(double n_100);
 
     /**
-     * @brief Возвращает значение по номиналу 500
-     * @return n_500
+     * @brief Устанавливает новое значение по номиналу 500
+     * @param n_500
      */
 
-    void set_n_500(int set);
+    void set_n_500(double n_500);
 
     /**
-     * @brief Возвращает значение по номиналу 1000
-     * @return n_1000
+     * @brief Устанавливает новое значение по номиналу 1000
+     * @param n_1000
      */
 
-    void set_n_1000(int set);
+    void set_n_1000(double n_1000);
 
     /**
-     * @brief Возвращает значение по номиналу 5000
-     * @return n_5000
+     * @brief Устанавливает новое значение по номиналу 5000
+     * @param n_5000
      */
 
-    void set_n_5000(int set);
+    void set_n_5000(double n_5000);
 
 
 
