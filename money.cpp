@@ -63,56 +63,56 @@ double money::get_n_5000() const {
     return this->n_5000;
 }
 
-void money::set_n_001(int set) {
-    this->n_001 = set;
+void money::set_n_001(double n_001) {
+    this->n_001 = n_001;
 }
 
-void money::set_n_005(int set) {
-    this->n_005 = set;
+void money::set_n_005(double n_005) {
+    this->n_005 = n_005;
 }
 
-void money::set_n_01(int set) {
-    this->n_01 = set;
+void money::set_n_01(double n_01) {
+    this->n_01 = n_01;
 }
 
-void money::set_n_05(int set) {
-    this->n_05 = set;
+void money::set_n_05(double n_05) {
+    this->n_05 = n_05;
 }
 
-void money::set_n_1(int set) {
-    this->n_1 = set;
+void money::set_n_1(double n_1) {
+    this->n_1 = n_1;
 }
 
-void money::set_n_2(int set) {
-    this->n_2 = set;
+void money::set_n_2(double n_2) {
+    this->n_2 = n_2;
 }
 
-void money::set_n_5(int set) {
-    this->n_5 = set;
+void money::set_n_5(double n_5) {
+    this->n_5 = n_5;
 }
 
-void money::set_n_10(int set) {
-    this->n_10 = set;
+void money::set_n_10(double n_10) {
+    this->n_10 = n_10;
 }
 
-void money::set_n_50(int set) {
-    this->n_50 = set;
+void money::set_n_50(double n_50) {
+    this->n_50 = n_50;
 }
 
-void money::set_n_100(int set) {
-    this->n_100 = set;
+void money::set_n_100(double n_100) {
+    this->n_100 = n_100;
 }
 
-void money::set_n_500(int set) {
-    this->n_500 = set;
+void money::set_n_500(double n_500) {
+    this->n_500 = n_500;
 }
 
-void money::set_n_1000(int set) {
-    this->n_1000 = set;
+void money::set_n_1000(double n_1000) {
+    this->n_1000 = n_1000;
 }
 
-void money::set_n_5000(int set){
-    this->n_5000 = set;
+void money::set_n_5000(double n_5000){
+    this->n_5000 = n_5000;
 }
 
 void money::sum(const money& other){
